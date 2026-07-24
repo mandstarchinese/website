@@ -13,7 +13,7 @@ const SITE_CONFIG = {
 
   // SNSリンク（未設定の場合は "#" のままでOK。用意でき次第書き換えてください）
   social: {
-    youtube: "#https://youtube.com/channel/UCUsvXKHcJdgCOM5klXq40Kw?si=jxDn1RFNS-L1YgCG",
+    youtube: "https://youtube.com/channel/UCUsvXKHcJdgCOM5klXq40Kw?si=jxDn1RFNS-L1YgCG",
     tiktok: "#",
     line: "https://lin.ee/VLbPneo",
     wechat: "#"
