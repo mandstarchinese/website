@@ -6,16 +6,16 @@
 const SITE_CONFIG = {
   // 「レッスン予約」ボタンのリンク先。
   // 以前作成したアンケート＋予約ページ（Googleフォーム／Tally／STORESなど）のURLに置き換えてください。
-  reservationUrl: "https://forms.gle/XXXXXXXXXXXXXXXX",
+  reservationUrl: "https://vita0106.github.io/booking-page",
 
   // 問い合わせメールアドレス
   contactEmail: "mandstarchinese@gmail.com",
 
   // SNSリンク（未設定の場合は "#" のままでOK。用意でき次第書き換えてください）
   social: {
-    youtube: "#",
+    youtube: "#https://youtube.com/channel/UCUsvXKHcJdgCOM5klXq40Kw?si=jxDn1RFNS-L1YgCG",
     tiktok: "#",
-    line: "#",
+    line: "https://lin.ee/VLbPneo",
     wechat: "#"
   }
 };
