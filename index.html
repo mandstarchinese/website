@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MandstarChinese | あなたの中国語学習、ずっとそばに</title>
+<meta name="description" content="MandstarChineseは、日本人学習者に特化したオーダーメイドのマンツーマン中国語レッスンを提供します。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========== ヘッダー ========== -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <!-- ★ロゴ画像: images/logo.png を置くとここに表示されます -->
+      <span class="logo-mark"><img src="images/logo.png" alt="MandstarChinese ロゴ" onerror="this.remove()"></span>
+      <span>MandstarChinese</span>
+    </a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html" class="nav-link active">ホームページ</a>
+      <a href="teachers.html" class="nav-link">講師紹介</a>
+      <a href="lessons.html" class="nav-link">授業について</a>
+      <a href="pricing.html" class="nav-link">料金プラン</a>
+      <a href="pinyin-course.html" class="nav-link">ピンイン講座</a>
+    </nav>
+    <a href="#" class="btn btn-pill" data-reservation-link target="_blank" rel="noopener">レッスン予約</a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="メニューを開く">&#9776;</button>
+  </div>
+</header>
+
+<!-- ========== ヒーロー ========== -->
+<section class="hero">
+  <!--
+    ★背景写真を追加するには★
+    images/bg-hero.jpg というファイル名で写真を images フォルダに置くだけでOKです。
+    （推奨: レッスン風景など横長写真、1920×1080px程度。このセクション全体の背景として表示され、
+    上に半透明の黒いレイヤーが重なるので文字は常に読みやすくなります）
+  -->
+  <img src="images/bg-hero.jpg" alt="" class="section-bg-photo" onerror="this.remove()">
+  <div class="section-overlay"></div>
+  <img src="images/decor-star.svg" alt="" class="star-decor" aria-hidden="true">
+  <div class="hero-inner">
+    <div>
+      <h1>あなたの中国語学習、<br>ずっとそばに</h1>
+      <p>
+        MandstarChineseへようこそ。<br>
+        学生一人ひとりに合わせたオーダーメイドのマンツーマンレッスンを提供し、リアルな中国語を楽しんで学べます！
+      </p>
+      <div style="margin-top:32px;">
+        <a href="#" class="btn btn-primary" data-reservation-link target="_blank" rel="noopener">無料体験レッスンに申し込む</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 実績数値バー ========== -->
+<div class="stats-bar">
+  <div class="container stats-grid">
+    <div class="stat-item">
+      <div class="stat-num">7年間</div>
+      <div class="stat-label">自由会話・発音にこだわる</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">1,000名</div>
+      <div class="stat-label">以上の生徒が実感！<br>楽しく上達する</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">NO.1</div>
+      <div class="stat-label">超人気講師 満足度98.8%</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">8年間</div>
+      <div class="stat-label">言語学を研究、<br>専門的な指導に徹する</div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== MandstarChineseについて ========== -->
+<section class="about-section" style="position:relative;">
+  <img src="images/decor-circle.svg" alt="" class="line-deco deco-circle" style="top:10%; left:2%;" aria-hidden="true">
+  <div class="container split-block reverse">
+    <div>
+      <p class="eyebrow">About Us</p>
+      <h2 class="section-title">MandstarChineseについて</h2>
+      <div class="title-bar"></div>
+      <p>
+        私たちは日本市場における対外中国語教育に7年間深く携わり、ただ一つのことに専念してきました。――それは、日本人の皆さまに「本当に使える中国語」を身につけていただくことです。日本人学習者特有の発音や表現習慣、思考の違いによるつまずきを徹底分析し、独自に体系化したオリジナル教材を開発しました。より効率的で、より的確な学習を実現しています。講師は全員、日本の大学院修士課程を修了し、日本語能力試験N1を取得した中国語母語話者です。確かな言語学の知識と日中バイリンガルとしての強みを活かし、専門性と実用性を兼ね備えた、自然で地道な中国語指導を行っています。
+      </p>
+    </div>
+    <!--
+      ★動画を追加するには★
+      videos/about.mp4 というファイル名で動画ファイルを videos フォルダに置くだけでOKです（MP4形式推奨）。
+      （推奨: 教室紹介やレッスン風景の動画、横長16:9）
+      ※ サムネイル（動画再生前に表示される画像）は images/photo-about.jpg が使われます。無くても動作します。
+    -->
+    <div class="split-photo photo-stack">
+      <div class="image-slot video-slot ratio-16-9 on-dark">
+        <video src="videos/about.mp4" controls preload="metadata" poster="images/photo-about.jpg" onerror="this.remove()"></video>
+        <div class="slot-placeholder">
+          <span class="slot-icon">🎬</span>
+          <span class="slot-label">ここに動画を追加できます</span>
+          <span class="slot-hint">videos/about.mp4 を<br>追加してください</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 講師プレビュー（teachers-data.js から自動生成） ========== -->
+<section>
+  <div class="container center">
+    <p class="eyebrow">Mandstar Chinese</p>
+    <h2 class="section-title">チームメンバー</h2>
+    <div class="title-bar"></div>
+  </div>
+  <div class="container">
+    <div class="card-grid cols-3" id="teacher-preview-list">
+      <!-- js/render-teachers.js が自動でカードを生成します -->
+    </div>
+    <div class="center" style="margin-top:32px;">
+      <a href="teachers.html" class="btn btn-outline">講師紹介をもっと見る</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== こんな悩みがありませんか？ ========== -->
+<section class="bg-soft">
+  <div class="container center">
+    <h2 class="section-title">こんな悩みがありませんか？</h2>
+    <div class="title-bar"></div>
+  </div>
+  <div class="container">
+    <div class="card-grid cols-3">
+      <div class="worry-card v1"><span class="worry-icon">📚</span>独学だと勉強が続かず、<br>なかなか上達を実感できない…</div>
+      <div class="worry-card v2"><span class="worry-icon">🗣️</span>中国語で話したくても、<br>練習する相手が見つからない…</div>
+      <div class="worry-card v3"><span class="worry-icon">🎤</span>発音に自信がなく、<br>会話で通じるか不安…</div>
+      <div class="worry-card v4"><span class="worry-icon">✈️</span>旅行や出張で<br>中国に行く予定があるが、<br>中国語でうまく対応できるか心配…</div>
+      <div class="worry-card v5"><span class="worry-icon">📅</span>学習計画がなく、<br>簡単に諦めてしまう…</div>
+      <div class="worry-card v6"><span class="worry-icon">😴</span>言語学習は退屈に感じられ、<br>だんだん興味を失う…</div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 中国語教室選びのよくある誤解 ========== -->
+<section>
+  <div class="container">
+    <h2 class="section-title">中国語教室の選びで<br><span style="color:var(--pink-500);">よくある誤解！</span></h2>
+    <div class="title-bar"></div>
+    <div class="split-block" style="align-items:stretch;">
+      <div>
+        <div class="myth-block">
+          <h3>料金が安い＝コスパが良い？</h3>
+          <p>価格だけで選ぶと、講師の質やカリキュラムが不安定で、上達せず、結果的に無駄になることが多いです。</p>
+        </div>
+        <div class="myth-block">
+          <h3>中国語母語者＝上手に教えられる？</h3>
+          <p>母語だからといって、教える技術があるとは限りません。言語学と教育学の専門知識を備えた講師を選ぶことが重要です。</p>
+        </div>
+        <div class="myth-block" style="margin-bottom:0;">
+          <h3>レッスン回数が多い＝早く上達？</h3>
+          <p>ただ回数をこなすだけでは効率が悪く、質が伴わなければ意味がありません。時間を無駄にしないためにも、自分に合った効率的な学び方を選びましょう。</p>
+        </div>
+      </div>
+      <!--
+        ★画像を追加するには★
+        images/photo-myths.jpg というファイル名で写真を images フォルダに置くだけでOKです。
+        （縦長、テキストブロックと同じ高さまで自動で伸びます）
+      -->
+      <div class="split-photo image-slot no-effect stretch-fill" style="margin-left:28px;margin-right:0;min-height:460px;">
+        <img src="images/photo-myths.jpg" alt="" onerror="this.remove()">
+        <div class="slot-placeholder">
+          <span class="slot-icon">🖼️</span>
+          <span class="slot-label">ここに写真を追加できます</span>
+          <span class="slot-hint">images/photo-myths.jpg を<br>差し替えてください</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== MandstarChineseを選ぶ理由 ========== -->
+<section class="bg-pink">
+  <div class="container center">
+    <h2 class="section-title tight-fit">MandstarChineseを選ぶ理由</h2>
+    <div class="title-bar"></div>
+  </div>
+  <div class="container table-scroll">
+    <table class="compare-table">
+      <thead>
+        <tr><th>他社</th><th>MandstarChinese</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>教師の指導力にばらつきがある</td>
+          <td><ul><li>全講師が関連分野の修士課程修了</li><li>理論と実践の両面から豊富な指導経験を持つ</li></ul></td>
+        </tr>
+        <tr>
+          <td>授業後のフィードバックがない</td>
+          <td><ul><li>毎回の授業後に学習状況をフィードバック</li><li>LINEで復習をサポートし、専任講師がオンラインで継続フォロー</li></ul></td>
+        </tr>
+        <tr>
+          <td>市販教材中心で、内容が画一的・やや単調</td>
+          <td><ul><li>独自開発の教材を使用</li><li>リラックスした雰囲気の中で、負担なく着実にレベルアップ</li></ul></td>
+        </tr>
+        <tr>
+          <td>全員が同じカリキュラムで進行</td>
+          <td><ul><li>学習目的・現在のレベル・スケジュールに合わせた完全オーダーメイドカリキュラム</li></ul></td>
+        </tr>
+        <tr>
+          <td>日本人学習者の特性に十分対応していない</td>
+          <td><ul><li>日本人に特化</li><li>日本人学習者の母語干渉を熟知し、自然で正確な中国語運用力を育成</li></ul></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ========== ポスターカルーセル（自動循環） ========== -->
+<section class="tight">
+  <div class="container">
+    <!--
+      ★写真を追加するには★
+      images/poster-1.jpg 〜 poster-4.jpg というファイル名で images フォルダに置くだけでOKです。
+      （推奨: 教室・レッスン風景・イベントなどの横長写真、21:9、1760×760px程度。4枚が自動で順番に切り替わります）
+      枚数を増減したい場合は .poster-slide ブロックをコピー／削除し、
+      下の .poster-dots 内の <span> も同数に合わせてください。
+    -->
+    <div class="poster-carousel" data-carousel>
+      <div class="poster-slide is-active">
+        <img src="images/poster-1.jpg" alt="教室の雰囲気の写真1" onerror="this.remove()">
+        <div class="slot-placeholder">
+          <span class="slot-icon">🖼️</span>
+          <span class="slot-label">ここに写真を追加できます</span>
+          <span class="slot-hint">images/poster-1.jpg を差し替えてください</span>
+        </div>
+      </div>
+      <div class="poster-slide">
+        <img src="images/poster-2.jpg" alt="教室の雰囲気の写真2" onerror="this.remove()">
+        <div class="slot-placeholder">
+          <span class="slot-icon">🖼️</span>
+          <span class="slot-label">ここに写真を追加できます</span>
+          <span class="slot-hint">images/poster-2.jpg を差し替えてください</span>
+        </div>
+      </div>
+      <div class="poster-slide">
+        <img src="images/poster-3.jpg" alt="教室の雰囲気の写真3" onerror="this.remove()">
+        <div class="slot-placeholder">
+          <span class="slot-icon">🖼️</span>
+          <span class="slot-label">ここに写真を追加できます</span>
+          <span class="slot-hint">images/poster-3.jpg を差し替えてください</span>
+        </div>
+      </div>
+      <div class="poster-slide">
+        <img src="images/poster-4.jpg" alt="教室の雰囲気の写真4" onerror="this.remove()">
+        <div class="slot-placeholder">
+          <span class="slot-icon">🖼️</span>
+          <span class="slot-label">ここに写真を追加できます</span>
+          <span class="slot-hint">images/poster-4.jpg を差し替えてください</span>
+        </div>
+      </div>
+    </div>
+    <div class="poster-dots">
+      <span class="is-active"></span><span></span><span></span><span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ご予約の流れ ========== -->
+<section class="flow-section">
+  <div class="container center">
+    <h2 class="section-title">ご予約の流れ</h2>
+    <p class="section-sub">
+      レッスン中に何か問題が生じた場合は、いつでも公式LINEカスタマーサポートまでご連絡ください。<br>
+      ご予約からレッスン終了まで、専属スタッフが一貫してサポートいたします。
+    </p>
+  </div>
+  <div class="container split-block">
+    <div class="flow-steps" style="margin:0;">
+      <div class="flow-step">
+        <div class="flow-num">01</div>
+        <div class="flow-text">
+          <h4>予約ボタンをタップ</h4>
+          <p><a href="#" data-reservation-link target="_blank" rel="noopener" style="color:#fff;text-decoration:underline;">無料体験レッスンはこちら</a></p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">02</div>
+        <div class="flow-text">
+          <h4>アンケートにご記入</h4>
+          <p>ご記入は初回のみ必要です。</p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">03</div>
+        <div class="flow-text"><h4>受講日時を予約</h4></div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">04</div>
+        <div class="flow-text">
+          <h4>お支払い</h4>
+          <p>初回レッスンは無料です。</p>
+        </div>
+      </div>
+      <div class="flow-step">
+        <div class="flow-num">05</div>
+        <div class="flow-text"><h4>授業を受ける</h4></div>
+      </div>
+    </div>
+    <!--
+      ★画像を追加するには★
+      images/photo-flow.jpg というファイル名で写真を images フォルダに置くだけでOKです。
+      （推奨: オンラインレッスンの様子、縦長 3:4、900×1200px程度）
+    -->
+    <div class="split-photo photo-stack">
+      <div class="image-slot ratio-3-4 on-dark">
+        <img src="images/photo-flow.jpg" alt="オンラインレッスンの様子" onerror="this.remove()">
+        <div class="slot-placeholder">
+          <span class="slot-icon">🖼️</span>
+          <span class="slot-label">ここに写真を追加できます</span>
+          <span class="slot-hint">images/photo-flow.jpg を<br>差し替えてください</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== お客様の声 ========== -->
+<section class="bg-soft">
+  <div class="container center">
+    <p class="eyebrow">Customer Witness</p>
+    <h2 class="section-title">お客様の声</h2>
+    <div class="title-bar"></div>
+    <img src="images/decor-wave.svg" alt="" style="width:160px;margin:0 auto 20px;opacity:.7;" aria-hidden="true">
+  </div>
+  <div class="container">
+    <!--
+      ★各生徒さんの写真を追加するには★
+      images/customer-1.jpg 〜 customer-4.jpg というファイル名で images フォルダに置くだけでOKです（正方形推奨、300×300px程度）。
+    -->
+    <div class="card-grid cols-2">
+      <div class="testimonial-card">
+        <div class="avatar-slot"><img src="images/customer-1.jpg" alt="" onerror="this.remove()"></div>
+        <div>
+          <h4>北京大学に合格</h4>
+          <p>親身になって指導してもらい北京大学に合格することが出来ました。合格に必要なHSKの試験対策や面接対策をしてくれたおかげで、要求が高い北京大学に合格することができました。</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="avatar-slot"><img src="images/customer-2.jpg" alt="" onerror="this.remove()"></div>
+        <div>
+          <h4>退職後の楽しみ</h4>
+          <p>趣味で中国語を勉強しています。先生と友達のようにたくさん話す中で自然に中国語が上達することが出来ました。人柄がいいので気軽にいろいろなことを話してくれて、気づいたら日常会話レベルがあがっていました。</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="avatar-slot"><img src="images/customer-3.jpg" alt="" onerror="this.remove()"></div>
+        <div>
+          <h4>急な商談で</h4>
+          <p>仕事で急に中国語が必要になり不安でしたが、ビジネス会話やマナーも丁寧に教わり大変助かりました。おかげで商談もうまくいきました！</p>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="avatar-slot"><img src="images/customer-4.jpg" alt="" onerror="this.remove()"></div>
+        <div>
+          <h4>やっと続けられました！</h4>
+          <p>単に授業を受けるだけではなく、先生たちが友達のように一緒に学習に取り組んでくれたので、飽きることなく最後まで続けられて、楽しく中国語を学ぶことができました。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ピンイン講座 おすすめ ========== -->
+<section class="tight">
+  <div class="container">
+    <div class="course-promo">
+      <img src="images/decor-star.svg" alt="" class="star-decor" aria-hidden="true">
+      <div class="promo-text">
+        <p class="eyebrow promo-eyebrow">人気講座</p>
+        <h3>発音に自信がない方へ ― 中国語ピンイン講座</h3>
+        <p>全10回・約5時間の録画講座で、日本人がつまずきやすい発音・声調の基礎を体系的に学べます。レッスン後は専門講師が1対1で発音をチェック。</p>
+        <div class="promo-points">
+          <span>録画式でいつでも学べる</span>
+          <span>1対1発音フィードバック</span>
+          <span>永久視聴OK</span>
+        </div>
+      </div>
+      <div class="promo-cta">
+        <span class="promo-price">期間限定 クーポン適用で9,800円〜</span>
+        <a href="pinyin-course.html" class="btn btn-primary">講座の詳細を見る</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== フッター ========== -->
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h3>お問い合わせ</h3>
+      <p class="footer-email"><a href="mailto:mandstarchinese@gmail.com" data-contact-email="link"><span data-contact-email="text">mandstarchinese@gmail.com</span></a></p>
+      <p style="margin-top:14px;">
+        ご不明な点がございましたら、<br>お気軽にお問い合わせください。<br>
+        これまでのご支援に心より感謝申し上げます。<br>
+        今後とも精進してまいります。
+      </p>
+    </div>
+    <div class="footer-col footer-social">
+      <h3>SNS・公式アカウント</h3>
+      <!-- ★クリックすると各SNSページに移動します。リンク先は js/config.js で設定してください -->
+      <ul class="footer-social-list">
+        <li><a href="#" data-social="youtube" target="_blank" rel="noopener">YouTube</a></li>
+        <li><a href="#" data-social="tiktok" target="_blank" rel="noopener">TikTok</a></li>
+        <li><a href="#" data-social="line" target="_blank" rel="noopener">LINE公式アカウント</a></li>
+        <li><a href="#" data-social="wechat" target="_blank" rel="noopener">WeChat</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <nav class="footer-nav">
+      <a href="index.html">ホームページ</a>
+      <a href="teachers.html">講師紹介</a>
+      <a href="lessons.html">授業について</a>
+      <a href="pricing.html">料金プラン</a>
+      <a href="pinyin-course.html">ピンイン講座</a>
+      <a href="#" data-reservation-link target="_blank" rel="noopener">レッスン予約</a>
+    </nav>
+    <p class="copyright">&copy; 2026 MandstarChinese</p>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/teachers-data.js"></script>
+<script src="js/render-teachers.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
