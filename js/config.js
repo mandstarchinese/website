@@ -6,7 +6,7 @@
 const SITE_CONFIG = {
   // 「レッスン予約」ボタンのリンク先。
   // 以前作成したアンケート＋予約ページ（Googleフォーム／Tally／STORESなど）のURLに置き換えてください。
-  reservationUrl: "https://vita0106.github.io/booking-page/",
+  reservationUrl: "https://mandstarchinese.github.io/booking-page/",
 
   // 問い合わせメールアドレス
   contactEmail: "mandstarchinese@gmail.com",
